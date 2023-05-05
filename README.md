@@ -1,7 +1,7 @@
 
 
 # Fishing Report
-Fishing Report is an app designed to log your fishing trips, what you caught, what bait you used, and what the weather conditions were like when you caught that fish! This will help you to identify trends and pattersn for future use!.
+Fishing Report is an app designed to log your fishing trips, what you caught, what bait you used, and what the weather conditions were like when you caught that fish! This will help you to identify trends and patterns for future use!
 
 ## Installation
 ////////
