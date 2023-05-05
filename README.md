@@ -1,7 +1,7 @@
 
 
-# WhoAmI
-WhoAmI is an application designed to give you the resources to populate a social media profile with entirely fake information. This program is useful for OSINT investigations as well as HUMINT. 
+# Fishing Report
+Fishing Report is an app designed to log your fishing trips, what you caught, what bait you used, and what the weather conditions were like when you caught that fish! This will help you to identify trends and pattersn for future use!.
 
 ## Installation
 ////////
