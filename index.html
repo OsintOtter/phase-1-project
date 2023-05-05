@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="main" ></div>
-    <p id="textArea"></p>
-    <button class="btn1"></button>
-    <button class="btn2"></button>
-    <button class="btn3"></button>
+    <form id="report-form">
+        <label for="catch">Species: </label><br>
+        <input type="text" id="catch" species="catch"><br>
+        <label for="bait">Bait Used: </label><br>
+        <input type="text" id="bait" bait="bait"><br>
+        <label for="catchTime">Date and Time of catch: </label><br>
+        <input type="datetime-local" id="catch-time"><br>
+        <label for="notes">Catch notes/Location</label><br>
+        <input type="text" id="notes-location"><br>
+        <button type="submit">Log Catch</button>
+    </form>
+
     
 </body>
 </html>
