@@ -12,7 +12,8 @@ form.addEventListener('submit', event => {
     species: formData.get('species'),
     bait: formData.get('bait'),
     catchTime: formattedDate,
-    notes: formData.get('notes')
+    notes: formData.get('notes'),
+    location: formData.get('location')
   };
 
   const requestBody = JSON.stringify(data);
@@ -45,10 +46,11 @@ const displayCatches = () => {
       catches.forEach(catchItem => {
         const catchElement = document.createElement('li');
         catchElement.innerHTML = `
-          <span class="species">${catchItem.species}</span>
-          <span class="bait">${catchItem.bait}</span>
-          <span class="catch-time">${catchItem.catchTime}</span>
-          <span class="notes">${catchItem.notes}</span>
+          <span class="species">Species: ${catchItem.species} - </span>
+          <span class="bait">Bait: ${catchItem.bait} - </span>
+          <span class="catch-time">Time: ${catchItem.catchTime} - </span>
+          <span class="notes">Notes: ${catchItem.notes} - </span>
+          <span class='location'>Location: ${catchItem.location} - </span>
         `;
         catchesList.appendChild(catchElement);
       });
