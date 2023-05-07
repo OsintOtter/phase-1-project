@@ -25,9 +25,13 @@ form.addEventListener('submit', event => {
     body: requestBody
   })
   .then(response => response.json())
-  .then(data => console.log(data))
+  .then(data => {
+    console.log(data);
+    form.reset(); // Reset the form after successful submission
+  })
   .catch(error => console.error(error));
 });
+
 
 // Displaying catches
 const displayCatches = () => {
