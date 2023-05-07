@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="report-form">
-        <label for="catch">Species: </label><br>
-        <input type="text" id="catch" name="species"><br>
-        <label for="bait">Bait Used: </label><br>
-        <input type="text" id="bait" name="bait"><br>
-        <label for="catchTime">Date and Time of catch: </label><br>
-        <input type="datetime-local" id="catch-time" name="catchTime"><br>
-        <label for="notes">Catch notes/Location</label><br>
-        <input type="text" id="notes-location" name="notes"><br>
-        <button type="submit">Log Catch</button>
-    </form>
-
-    <div id="catches">
-        <h2>My Catches</h2>
-        <ul id="catch-list"></ul>
-        <ul id="catches-list"></ul>
+    <div class="container">
+        <h1 class="header">Fish Logger</h1>
+        <form id="report-form">
+            <label for="catch">Species: </label><br>
+            <input type="text" id="catch" name="species"><br>
+            <label for="bait">Bait Used: </label><br>
+            <input type="text" id="bait" name="bait"><br>
+            <label for="catchTime">Date and Time of catch: </label><br>
+            <input type="datetime-local" id="catch-time" name="catchTime"><br>
+            <label for="notes">Catch notes/Location</label><br>
+            <input type="text" id="notes-location" name="notes"><br>
+            <button type="submit">Log Catch</button>
+        </form>
     </div>
+
+    <div id="catches"></div>
+    <ul id="catches-list"></ul>
 
     <script src="index.js"></script>
     
 </body>
 </html>
+
 
 
 
