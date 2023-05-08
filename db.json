@@ -15,6 +15,22 @@
       "notes": "Nothing",
       "location": "nothuing ",
       "id": 2
+    },
+    {
+      "species": "Rainbow Trout",
+      "bait": "Rooster Tail",
+      "catchTime": "5/8/2023, 1:30:00 PM",
+      "notes": "Caught in a pool off the right side of talluah falls",
+      "location": "Talluah River ",
+      "id": 3
+    },
+    {
+      "species": "",
+      "bait": "",
+      "catchTime": "Invalid Date",
+      "notes": "",
+      "location": "",
+      "id": 4
     }
   ]
 }
