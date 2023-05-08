@@ -58,6 +58,7 @@ const displayCatches = () => {
     .catch(error => console.error(error));
 };
 
+
 // Updating catches list every 5 seconds
 setInterval(displayCatches, 5000);
 

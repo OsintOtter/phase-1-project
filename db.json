@@ -1,3 +1,20 @@
 {
-  "catches": []
+  "catches": [
+    {
+      "species": "Large Mouth Bass",
+      "bait": "Chatterbait",
+      "catchTime": "5/9/2023, 2:02:00 AM",
+      "notes": "Night fishing, Caught this one off north bank.",
+      "location": "Sandy Creek Park",
+      "id": 1
+    },
+    {
+      "species": "bass",
+      "bait": "z-man Jackhammer",
+      "catchTime": "5/3/2023, 3:02:00 AM",
+      "notes": "Nothing",
+      "location": "nothuing ",
+      "id": 2
+    }
+  ]
 }
